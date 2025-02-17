@@ -1,0 +1,23 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Games</title>
+    </head>
+    <body>
+        <h1>Meus Jogos Favoritos</h1>
+        <ol>
+            <li>The Legend of Zelda: Breath of the Wild</li>
+            <li>Red Dead Redemption 2</li>
+            <li>The Witcher 3: Wild Hunt</li>
+        </ol>
+    
+        <h1>Top 5 Jogos para um Café da Tarde</h1>
+        <ul>
+            <li>Super Mario Bros</li>
+            <li>Fortnite</li>
+            <li>League of Legends</li>
+            <li>Valorant</li>
+            <li>FIFA 22</li>
+        </ul>
+    </body>
+</html>
