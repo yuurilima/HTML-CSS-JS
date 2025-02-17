@@ -1,0 +1,15 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Imagens de Games</title>
+    </head>
+    <body>
+        <h1>Imagens dos Meus Jogos Favoritos</h1>
+    
+        <img src="https://www.nintendo.com/eu/media/images/10_share_images/portals_3/2x1_Hub_TheLegendOfZelda_ToTK.jpg" alt="The Legend of Zelda" width="150"><br><br>
+    
+        <img src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png" alt="Red Dead Redemption 2" width="150"><br><br>
+    
+        <img src="https://upload.wikimedia.org/wikipedia/pt/0/06/TW3_Wild_Hunt.png" alt="The Witcher 3" width="150">
+    </body>
+</html>
