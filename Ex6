@@ -1,0 +1,30 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <title>Produtos de Games</title>
+</head>
+<body>
+    <h1>Produtos Relacionados a Games</h1>
+    <table border="1">
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>Controle Xbox Series X</td>
+            <td>R$ 350,00</td>
+            <td>Controle sem fio para Xbox Series X com tecnologia de baixa latência.</td>
+        </tr>
+        <tr>
+            <td>Headset Gamer</td>
+            <td>R$ 250,00</td>
+            <td>Headset com áudio 7.1 e microfone ajustável, ideal para jogos online.</td>
+        </tr>
+        <tr>
+            <td>Teclado Mecânico RGB</td>
+            <td>R$ 450,00</td>
+            <td>Teclado mecânico com iluminação RGB, perfeito para sessões intensas de jogo.</td>
+        </tr>
+    </table>
+</body>
+</html>
