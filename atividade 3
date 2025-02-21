@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore o Mundo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Explore o Mundo</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="https://compenaestrada.com.br/wp-content/uploads/2014/12/viajar-pelo-mundo.jpg"
+                alt="Paisagem deslumbrante" class="hero-image" width="1280px" height="400px">
+            <p>Descubra os destinos mais incríveis ao redor do mundo!</p>
+        </section>
+
+        <hr>
+
+        <section class="gallery">
+            <div class="destination">
+                <img src="https://www.topensandoemviajar.com/wp-content/uploads/2023/08/dicas-fazer-fortaleza-feat-copiar.webp"
+                    alt="Fortaleza, Brasil" class="destination-image" width="1000px" height="400px">
+                <h2>Fortaleza, Brasil</h2>
+                <p>A cidade do sol é um dos principais destinos turísticos do Brasil.</p>
+            </div>
+
+            <div class="destination">
+                <img src="https://viladamonica.com.br/wp-content/uploads/2024/04/Gramado-Credito-Cleiton-Thiele-scaled.jpg"
+                    alt="Gramado, Brasil" class="destination-image" width="800px" height="500px">
+                <h2>Gramado, Brasil</h2>
+                <p>A "Europa do Brasil" é uma cidade rodeada por montanhas, vales verdejantes e lagos! No inverno, a neve cobre a paisagem e o cenário é de tirar o fôlego.</p>
+            </div>
+
+            <div class="destination">
+                <img src="https://a.storyblok.com/f/55469/1170x728/686a5d2781/jp_00_tyo_1.jpeg/m/645x0/filters:format(webp)"
+                    alt="Tóquio, Japão" class="destination-image">
+                <h2>Tóquio, Japão</h2>
+                <p>Uma fusão perfeita entre tradição e modernidade. É um destino imperdível para os amantes da arte, arquitetura, moda e tecnologia.</p>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Entre em contato: <a href="mailto:contato@exploreomundo.com">contato@exploreomundo.com</a></p>
+        <p>Siga-nos nas redes sociais!
+            <a href="https://www.instagram.com/_exploreemundo" target="_blank">@_exploreemundo</a>
+        </p>
+    </footer>
+</body>
+</html>
