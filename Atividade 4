@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Imagens</title>
+    <link rel="stylesheet" href="style4.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .banner {
+            width: 800px;
+            height: 300px;
+            background-image: url('https://i.pinimg.com/originals/08/7b/fb/087bfb3a72c8f5af8a14c7b20352dafd.gif');
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minhas imagens favoritas</h1>
+    </div>
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/88/39/dd/8839ddf64044005460e9c4f2c3aa2cb4.jpg" alt="Imagem de um animal">
+        <img src="https://i.pinimg.com/736x/96/9f/7d/969f7dfa883c4b0a052003f0bbf55d96.jpg" alt="Imagem de uma paisagem">
+        <img src="https://i.pinimg.com/736x/b2/1c/eb/b21ceb408d063b4380944fb35edda57e.jpg" alt="Imagem de um objeto">
+    </div>
+
+    <h2>Banner</h2>
+    <div class="banner"></div>
+
+    <h2>Galeria de Imagens</h2>
+    <div class="gallery">
+        <img src="https://i.pinimg.com/736x/2f/de/98/2fde98c959b414caa067d09154c8f86b.jpg" alt="Imagem 1">
+        <img src="https://i.pinimg.com/736x/64/70/33/647033ffc75b7516f9b0c961efa55f28.jpg" alt="Imagem 2">
+        <img src="https://i.pinimg.com/736x/77/3d/e8/773de85e694e8f88ed08ff5509ae4355.jpg" alt="Imagem 3">
+        <img src="https://i.pinimg.com/736x/34/16/48/341648284c1a4788fdaa38c22b092e01.jpg" alt="Imagem 4">
+        <img src="https://i.pinimg.com/originals/e8/4e/db/e84edb279472c7ab49e97ec276d4ffda.gif" alt="Imagem 5">
+        <img src="https://i.pinimg.com/originals/d6/46/fe/d646fe64af010a05f7c59377269dfce3.gif" alt="Imagem 6">
+    </div>
+</body>
+
+</html>
