@@ -1,0 +1,23 @@
+/*Exercicio 1*/
+let a1 = 10;
+a1 += 5;
+console.log(a1);
+
+/*Exercicio 2*/
+let x = 10;
+let y = 20;
+console.log(x == y);
+
+/*Exercicio 3*/
+let a2 = true;
+let b2 = false;
+console.log(a2 && b2);
+
+/*Exercicio 4*/
+let idade2 = 17;
+console.log(idade2 >= 18 ? "Maior de idade" : "Menor de idade");
+
+/*Exercicio 5*/
+let contador = 0;
+contador++;
+console.log(contador);
